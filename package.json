@@ -1,0 +1,16 @@
+{
+    "name": "react-production",
+    "version": "1.0.0",
+    "description": "This is used to run production build of react app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start:dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "author": "aman mishra 12-09-2021",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
